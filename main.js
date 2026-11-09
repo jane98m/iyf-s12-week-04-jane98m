@@ -23,3 +23,18 @@
 
  console.log(greet("Jane"));
  console.log(greet("Class"));
+let firstName = "Amina";
+let lastName = "Otieno";
+
+// Concatenation
+let fullName = firstName + " " + lastName;
+
+// Template literals (preferred)
+let greeting = `Hello, ${firstName}!`;
+let message = `${firstName} has ${firstName.length} letters.`;
+
+// String methods
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(firstName.charAt(0));
+console.log(fullName.includes("Amina"));
