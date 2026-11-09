@@ -272,3 +272,15 @@ console.log(calculate(10, "*", 5));
 
 console.log(calculate(10, "/", 5));      
 console.log(calculate(10, "/", 0));
+// Exercise 4
+
+let students = [
+  { name: "Alice", grade: 90 },
+  { name: "Bob", grade: 75 },
+  { name: "Charlie", grade: 85 }
+];let total = students[0].grade + students[1].grade + students[2].grade;
+let average = total / 3;
+
+console.log("Average:", average);
+console.log("Top student:", students[0].name);
+console.log("All students:", JSON.stringify(students));
