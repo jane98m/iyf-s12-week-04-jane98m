@@ -322,3 +322,17 @@ const calculator = {
 console.log(calculator.add(5, 3));
 console.log(calculator.subtract(10, 4));
 console.log(calculator.multiply(4, 3));
+// Exercise 3 - Object Iteration
+const scores = {
+  math: 95,
+  english: 88,
+  science: 92
+};
+
+console.log(Object.keys(scores));
+console.log(Object.values(scores));
+console.log(Object.entries(scores));
+
+for (const [subject, score] of Object.entries(scores)) {
+  console.log(`${subject}: ${score}`);
+   }
