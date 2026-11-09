@@ -76,4 +76,14 @@ console.log(firstName2.charAt(0));
 console.log(fullName2.includes("Amina"));
 console.log(greeting2);
 console.log(message2);
+// Comparison
+console.log(5 > 3);
+console.log(5 < 3);
+console.log(5 === 5);
+console.log(5 == "5");
+console.log(5 !== 3);
 
+// Logical
+console.log(true && true);
+console.log(true || false);
+console.log(!true);
