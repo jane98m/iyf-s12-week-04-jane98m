@@ -214,3 +214,16 @@ console.log("Day 0 is:", getDayName(0));
 console.log("Day 3 is:", getDayName(3));
 console.log("Day 5 is:", getDayName(5));
 console.log("Day 7 is:", getDayName(7));
+
+// Exercise 1: Array Basics
+const fruits = ["apple", "banana", "orange"];
+
+const numbers = [1, 2, 3, 4, 5];
+const mixed = ["hello", 42, true, null];
+console.log(fruits[0]);
+console.log(fruits.length);
+
+fruits.push("grape");
+fruits.unshift("mango");
+fruits.pop();
+fruits.shift();
