@@ -165,4 +165,24 @@ function calculateTip(bill, tipPercent = 15) {
 
 console.log("Tip:", calculateTip(1000));
 console.log("Tip 20%:", calculateTip(1000, 20));
+// Exercise 4 - Control Flow
 
+function getGrade(score) {
+  if (score >= 90) {
+    return "A";
+  } else if (score >= 80) {
+    return "B";
+  } else if (score >= 70) {
+    return "C";
+  } else if (score >= 60) {
+    return "D";
+  } else {
+    return "F";
+  }
+}
+
+console.log("Grade ya 95:", getGrade(95));
+console.log("Grade ya 85:", getGrade(85));
+console.log("Grade ya 75:", getGrade(75));
+console.log("Grade ya 65:", getGrade(65));
+console.log("Grade ya 40:", getGrade(40));
