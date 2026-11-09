@@ -58,4 +58,22 @@ let count = 0;
 count++;
 count--;
 console.log(count);
+// Task 7.2 - Exercise 2: String Operations
+let firstName2 = "Amina";
+let lastName2 = "Otieno";
+
+// Concatenation
+let fullName2 = firstName2 + " " + lastName2;
+
+// Template literals (preferred)
+let greeting2 = `Hello, ${firstName2}!`;
+let message2 = `${firstName2} has ${firstName2.length} letters.`;
+
+// String methods
+console.log(fullName2.toUpperCase());
+console.log(fullName2.toLowerCase());
+console.log(firstName2.charAt(0));
+console.log(fullName2.includes("Amina"));
+console.log(greeting2);
+console.log(message2);
 
