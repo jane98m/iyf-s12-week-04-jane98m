@@ -87,3 +87,11 @@ console.log(5 !== 3);
 console.log(true && true);
 console.log(true || false);
 console.log(!true);
+// Challenge: Calculate and display
+let ageInDays = age * 365;
+let ageInHours = ageInDays * 24;
+let yearTurn100 = 2026 - age + 100;
+
+console.log("My age in days:", ageInDays);
+console.log("My age in hours:", ageInHours);
+console.log("Year I'll turn 100:", yearTurn100);
