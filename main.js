@@ -186,3 +186,31 @@ console.log("Grade ya 85:", getGrade(85));
 console.log("Grade ya 75:", getGrade(75));
 console.log("Grade ya 65:", getGrade(65));
 console.log("Grade ya 40:", getGrade(40));
+// Exercise 5 - Switch
+// hii inatuambia jina la siku kutumia namba
+
+function getDayName(dayNumber) {
+  switch (dayNumber) {
+    case 0:
+      return "Sunday";
+    case 1:
+      return "Monday";
+    case 2:
+      return "Tuesday";
+    case 3:
+      return "Wednesday";
+    case 4:
+      return "Thursday";
+    case 5:
+      return "Friday";
+    case 6:
+      return "Saturday";
+    default:
+      return "Invalid day";
+  }
+}
+
+console.log("Siku ya 0 ni:", getDayName(0));
+console.log("Siku ya 3 ni:", getDayName(3));
+console.log("Siku ya 5 ni:", getDayName(5));
+console.log("Siku ya 7 ni:", getDayName(7));
