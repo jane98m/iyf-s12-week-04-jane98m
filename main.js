@@ -1,4 +1,4 @@
- // week 04 js practice
+// week 04 js practice
  // jane
 
  let name = "Jane";
@@ -308,3 +308,17 @@ person.phone = "0712 345 678";
 delete person.isStudent;
 
 console.log(person);
+// Exercise 2 - Object Methods
+const calculator = {
+  add: function(a, b) {
+    return a + b;
+  },
+  subtract(a, b) {
+    return a - b;
+  },
+  multiply: (a, b) => a * b
+};
+
+console.log(calculator.add(5, 3));
+console.log(calculator.subtract(10, 4));
+console.log(calculator.multiply(4, 3));
