@@ -4,6 +4,10 @@
  let name = "Jane";
  let age = 20;
  let isStudent = true;
+let favoriteColors = ["pink", "blue", "black"];
+let today = new Date();
+console.log("My favorite colors:", favoriteColors);
+console.log("Today is:", today);
 
  console.log("My name is:", name);
  console.log("My age is:", age);
