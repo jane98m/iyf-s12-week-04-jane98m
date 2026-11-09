@@ -44,3 +44,18 @@ console.log(firstName.charAt(0));
 console.log(fullName.includes("Jane"));
 console.log(greeting);  
 console.log(message);
+let a = 12;
+let b = 3;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(a ** b);
+
+let count = 0;
+count++;
+count--;
+console.log(count);
+
