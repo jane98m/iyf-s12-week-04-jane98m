@@ -117,3 +117,52 @@ console.log("Add:", add(5, 3));
 console.log("Multiply:", multiply(4, 6));
 console.log("Divide:", divide(10, 2));
 console.log("Divide by zero:", divide(10, 0));
+// Exercise 2
+
+function calculateArea(width, height) {
+  let area = width * height;
+  return area;
+}
+
+function celsiusToFahrenheit(celsius) {
+  let fahrenheit = (celsius * 9 / 5) + 32;
+  return fahrenheit;
+}
+
+function isEven(number) {
+  if (number % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function getInitials(fullName) {
+  let names = fullName.split(" ");
+  let firstName = names[0];
+  let secondName = names[1];
+  return firstName[0] + secondName[0];
+}
+
+function reverseString(str) {
+  let reversed = str.split("").reverse().join("");
+  return reversed;
+}
+
+console.log("Area:", calculateArea(5, 4));
+console.log("Temp:", celsiusToFahrenheit(25));
+console.log("Is 4 even?", isEven(4));
+console.log("Is 7 even?", isEven(7));
+console.log("Initials:", getInitials("Amina Otieno"));
+console.log("Reverse:", reverseString("Jane"));
+
+// Exercise 3
+
+function calculateTip(bill, tipPercent = 15) {
+  let tip = bill * tipPercent / 100;
+  return tip;
+}
+
+console.log("Tip:", calculateTip(1000));
+console.log("Tip 20%:", calculateTip(1000, 20));
+
