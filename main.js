@@ -95,3 +95,25 @@ let yearTurn100 = 2026 - age + 100;
 console.log("My age in days:", ageInDays);
 console.log("My age in hours:", ageInHours);
 console.log("Year I'll turn 100:", yearTurn100);
+// Task 7.3: Functions
+// Function expression
+const add = function(a, b) {
+    return a + b;
+};
+
+// Arrow function
+const multiply = (a, b) => a * b;
+
+// Arrow function with body
+const divide = (a, b) => {
+    if (b === 0) {
+        return "Cannot divide by zero";
+    }
+    return a / b;
+};
+
+console.log(greet("Jane"));
+console.log("Add:", add(5, 3));
+console.log("Multiply:", multiply(4, 6));
+console.log("Divide:", divide(10, 2));
+console.log("Divide by zero:", divide(10, 0));
