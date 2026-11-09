@@ -23,8 +23,8 @@
 
  console.log(greet("Jane"));
  console.log(greet("Class"));
-let firstName = "Amina";
-let lastName = "Otieno";
+let firstName = "Jane";
+let lastName = "Marietta";
 
 // Concatenation
 let fullName = firstName + " " + lastName;
@@ -37,4 +37,6 @@ let message = `${firstName} has ${firstName.length} letters.`;
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
 console.log(firstName.charAt(0));
-console.log(fullName.includes("Amina"));
+console.log(fullName.includes("Jane"));
+console.log(greeting);  
+console.log(message);
