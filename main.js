@@ -181,13 +181,13 @@ function getGrade(score) {
   }
 }
 
-console.log("Grade ya 95:", getGrade(95));
-console.log("Grade ya 85:", getGrade(85));
-console.log("Grade ya 75:", getGrade(75));
-console.log("Grade ya 65:", getGrade(65));
-console.log("Grade ya 40:", getGrade(40));
+console.log("Grade for 95:", getGrade(95));
+console.log("Grade for 85:", getGrade(85));
+console.log("Grade for 75:", getGrade(75));
+console.log("Grade for 65:", getGrade(65));
+console.log("Grade for 40:", getGrade(40));
 // Exercise 5 - Switch
-// hii inatuambia jina la siku kutumia namba
+// this returns the day name using a number
 
 function getDayName(dayNumber) {
   switch (dayNumber) {
@@ -210,7 +210,7 @@ function getDayName(dayNumber) {
   }
 }
 
-console.log("Siku ya 0 ni:", getDayName(0));
-console.log("Siku ya 3 ni:", getDayName(3));
-console.log("Siku ya 5 ni:", getDayName(5));
-console.log("Siku ya 7 ni:", getDayName(7));
+console.log("Day 0 is:", getDayName(0));
+console.log("Day 3 is:", getDayName(3));
+console.log("Day 5 is:", getDayName(5));
+console.log("Day 7 is:", getDayName(7));
