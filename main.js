@@ -284,3 +284,27 @@ let average = total / 3;
 console.log("Average:", average);
 console.log("Top student:", students[0].name);
 console.log("All students:", JSON.stringify(students));
+
+
+// Exercise 1 - Object Basics - About Me
+const person = {
+  firstName: "Jane",
+  lastName: "Marietta",
+  age: 20,
+  isStudent: true,
+  hobbies: ["reading", "coding", "football"],
+  address: {
+    city: "Nairobi",
+    country: "Kenya"
+  }
+};
+
+console.log(person.firstName);
+console.log(person["lastName"]);
+console.log(person.address.city);
+
+person.age = 21;
+person.phone = "0712 345 678";
+delete person.isStudent;
+
+console.log(person);
